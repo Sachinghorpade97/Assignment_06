@@ -1,0 +1,203 @@
+body {
+    background: url('6img/login\ bg.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.Loginbtn {
+    background-color: #41AAE1;
+    margin-top: 8%;
+}
+
+.card-body {
+    margin: 40px;
+    margin-bottom: 13px;
+    margin-top: 13px;
+}
+
+.card {
+    margin-top: 45px;
+}
+
+.star {
+    color: red;
+}
+
+#firstcard {
+    margin: 20px;
+    margin-top: 55px;
+}
+
+#loggedinbtn {
+  
+    border: 1px solid #e2dede;
+    color: #2196F3;
+    font-size: 15px;
+    box-shadow: 0 4px 4px rgba(133, 131, 131, 0.4);
+}
+
+
+
+
+
+@media only screen and (max-width:767px) and (min-width: 500px) {
+    .logincard2 {
+        
+        margin-left:50%!important;
+       
+    }
+}
+
+@media only screen and (max-width:499px) and (min-width: 435px) {
+    .logincard2 {
+        
+        margin-left:23%!important;
+       
+    }
+}    
+
+
+
+@media only screen and (max-width:991px) and (min-width: 768px) {
+    .logincard3 {
+        
+      margin-left:-43%  !important;
+       
+    }
+}
+
+@media only screen and (max-width:767px) and (min-width: 576px) {
+    .logincard3 {
+        
+      margin-left:10%  !important;
+       
+    }
+}
+
+@media only screen and (max-width:575px) and (min-width: 503px) {
+    .logincard3 {
+        
+      margin-left:12%  !important;
+       
+    }
+}
+
+@media only screen and (max-width:502px) and (min-width: 457px) {
+    .logincard3 {
+        
+      margin-left:6%  !important;
+       
+    }
+}
+
+@media only screen and (max-width:431px) and (min-width: 200px) {
+    .logincard3 {
+        
+      margin-left:-5%  !important;
+       
+    }
+}
+
+@media only screen and (max-width:1199px) and (min-width: 992px) {
+    .logincard3 {
+        
+      margin-top:30%  !important;
+      margin-left: -10%  !important;
+       
+    }
+}
+
+@media only screen and (max-width:991px) and (min-width: 768px) {
+    .logincard3 {
+        
+      margin-top:41%  !important; 
+    }
+}
+
+@media only screen and (max-width:767px) and (min-width: 576px) {
+    .logincard3 {
+        
+      margin-top:16%  !important; 
+      
+    }
+}
+
+@media only screen and (max-width:575px) and (min-width: 503px) {
+    .logincard3 {
+        
+      margin-top:15%  !important; 
+      margin-left:8%  !important; 
+      
+    }
+}
+
+@media only screen and (max-width:502px) and (min-width: 457px) {
+    .logincard3 {
+        
+      margin-top:15%  !important;
+      margin-left: 3% !important; 
+     
+      
+    }
+}
+
+@media only screen and (max-width:456px) and (min-width: 432px) {
+    .logincard3 {
+        
+      margin-top:15%  !important;
+      margin-left:-3%  !important; 
+     
+     }
+}
+
+@media only screen and (max-width:431px) and (min-width: 407px) {
+    .logincard3 {
+        
+      margin-top:15%  !important;
+     
+     }
+}
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------
+============================================================================================= */
+
+
+@media only screen and (max-width:991px) and (min-width: 768px) {
+    .logincard11 {
+        
+      margin-left:-40%   !important;
+       
+    }
+}
+
+@media only screen and (max-width:767px) and (min-width: 576px) {
+    .logincard11 {
+        
+      margin-left:-86%   !important;
+       
+    }
+}
+
+@media only screen and (max-width:575px) and (min-width: 431px) {
+    .logincard11 {
+        
+      margin-left:11%   !important;
+       
+    }
+}
+
+@media only screen and (max-width:430px) and (min-width: 127px) {
+    .logincard11 {
+        
+      margin-left:-3%   !important;
+       
+    }
+}

@@ -1,0 +1,1060 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="ass.css">
+    <title>Assignmrnt-06</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <style>
+        @media only screen and (max-width: 768px) and (min-width: 0px) {
+            #img1 {
+                display: block !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+                margin-top: 4% !important;
+
+            }
+        }
+
+
+
+        @media only screen and (max-width: 5008px) and (min-width:768px) {
+            #img1 {
+                display: block !important;
+                margin-left: 55% !important;
+
+            }
+        }
+
+
+        @media only screen and (max-width: 575px) {
+            #drop1 {
+                width: 100% !important;
+            }
+        }
+
+
+
+
+        /* #mycard1 :hover {
+            background-color: rgb(255, 255, 255);
+
+        } */
+        #drop1 {
+            width: 700px;
+        }
+
+        .cardhover:hover {
+            background-color: rgb(255, 255, 255);
+
+        }
+
+        .dc1:hover {
+            background-color: rgb(235, 255, 255);
+
+        }
+
+        .d1:hover {
+            background-color: rgb(235, 255, 255);
+
+        }
+
+        .d31 :hover {
+            background-color: rgb(235, 255, 255);
+
+        }
+
+        .d3 {
+            background-color: rgb(235, 255, 255);
+
+        }
+
+
+        .card1 {
+            background-color: rgb(223, 223, 223);
+            box-shadow: 0px 3px 31px #00000029;
+            opacity: 1;
+        }
+
+        .card2 {
+            box-shadow: 1px 1px 5px 1px rgb(223, 223, 223);
+        }
+
+        .cardhover1:hover {
+            box-shadow: 1px 1px 5px 1px rgb(203, 203, 203);
+
+        }
+
+        li {
+            font-size: small;
+        }
+
+        #drop1 {
+            width: 850px;
+        }
+
+        .dropdown_iteam_p {
+            font-size: 10px;
+        }
+
+        .d1 {
+            background-color: rgb(235, 255, 255);
+        }
+
+        .imgsize {
+            width: 18%;
+        }
+
+
+
+        .navtitle1 {
+            font-size: large;
+            color: rgb(7, 5, 5);
+        }
+
+
+        /* .link {
+
+            text-decoration: none;
+        }
+
+        .link:hover {
+            background-color: rgb(235, 255, 255);
+        }
+       
+        
+
+        @-webkit-keyframes wobble-vertical-on-hover {
+            16.65% {
+                -webkit-transform: translateY(8px);
+                transform: translateY(8px);
+            }
+
+            33.3% {
+                -webkit-transform: translateY(-6px);
+                transform: translateY(-6px);
+            }
+
+            49.95% {
+                -webkit-transform: translateY(4px);
+                transform: translateY(4px);
+            }
+
+            66.6% {
+                -webkit-transform: translateY(-2px);
+                transform: translateY(-2px);
+            }
+
+            83.25% {
+                -webkit-transform: translateY(1px);
+                transform: translateY(1px);
+            }
+
+            100% {
+                -webkit-transform: translateY(0);
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes wobble-vertical-on-hover {
+            16.65% {
+                -webkit-transform: translateY(8px);
+                transform: translateY(8px);
+            }
+
+            33.3% {
+                -webkit-transform: translateY(-6px);
+                transform: translateY(-6px);
+            }
+
+            49.95% {
+                -webkit-transform: translateY(4px);
+                transform: translateY(4px);
+            }
+
+            66.6% {
+                -webkit-transform: translateY(-2px);
+                transform: translateY(-2px);
+            }
+
+            83.25% {
+                -webkit-transform: translateY(1px);
+                transform: translateY(1px);
+            }
+
+            100% {
+                -webkit-transform: translateY(0);
+                transform: translateY(0);
+            }
+        }
+
+        .wobble-vertical-on-hover {
+            display: inline-block;
+            vertical-align: middle;
+            -webkit-transform: perspective(1px) translateZ(1px);
+            transform: perspective(1px) translateZ(0);
+            box-shadow: 1px 1px 7px rgba(34, 32, 32, 0);
+        }
+
+        .wobble-vertical-on-hover:hover,
+        .wobble-vertical-on-hover:focus,
+        .wobble-vertical-on-hover:active {
+            -webkit-animation-name: wobble-vertical-on-hover;
+            animation-name: wobble-vertical-on-hover;
+            -webkit-animation-duration: 80ms;
+            animation-duration: 50ms;
+            -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+            -webkit-animation-iteration-count: 3;
+            animation-iteration-count: 3;
+        }   */
+        /* --------------------------------------------------------------------------------- */
+
+        .menu {
+            position: relative;
+            display: block;
+            overflow: hidden;
+        }
+
+        .menu span {
+            transition: transform 0.3s ease-out;
+
+        }
+
+        .menu span:first-child {
+            display: inline-block;
+
+
+        }
+
+        .menu span:last-child {
+            position: absolute;
+            top: 0px;
+            right: 0;
+            bottom: 0;
+            left: 0px;
+
+            transform: translateY(-100%);
+        }
+
+
+
+        .menu :hover span:first-child {
+            transform: translateY(100%);
+        }
+
+        .menu :hover span:last-child,
+        .menu[data-animation] :hover span:last-child {
+            transform: none;
+
+        }
+
+        /* ANIMATIONS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+        .menu[data-animation="to-top"] span:last-child {
+            transform: translateY(100%);
+        }
+
+        .menu[data-animation="to-top"] :hover span:first-child {
+            transform: translateY(-100%);
+        }
+    </style>
+
+
+
+<!-- ====================================================================================== -->
+
+
+
+
+
+    <div class="container-fluid  bg-white " style=" z-index: 1;position: sticky;top: 0%;">
+        <div class="row mt-2  ">
+            <div class="col-md-1 " style="z-index: 1;">
+                <img src="6img/loginLb.png" alt="" style="width: 88px; height: 75px;">
+
+            </div>
+            <div class="col-md-9 mt-2  ">
+                <div class="row">
+
+                    <nav class="navbar navbar-expand-sm navbar-light bg-white ">
+                        <div class="col-md-11 col-sm-11 col-lg-6">
+                            <div class="input-group">
+                                <span class="input-group-text" id="basic-addon1"
+                                    style="border: none; background-color: whitesmoke; height: 30px; margin-left: 20px;"><i
+                                        class="bi bi-search"></i>
+                                </span>
+                                <input type="text" class="form-control form-control-sm" placeholder="Search"
+                                    aria-label="Username" aria-describedby="basic-addon1"
+                                    style="border: none; background-color: whitesmoke;">
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+
+                <!-- 2nd navbar-->
+
+                <div class="row mt-1">
+
+                    <nav class="navbar navbar-expand-sm navbar-light bg-white">
+
+                        <a class="navbar-brand" href="#"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#"><span class="navtitle1">
+                                            Home&nbsp;&nbsp;</span></a>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link active " href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        <span class="navtitle1">Learn&nbsp;<i
+                                                class="bi bi-chevron-down"></i>&nbsp;&nbsp;</span>
+                                    </a>
+
+
+                                    <div class="dropdown-menu drop1" id="drop1" aria-labelledby="navbarDropdown">
+                                        <div class="row device-width">
+                                            <div class="col-md-12 col-sm-12">
+                                                
+                                                <div class="col-md-6  col-sm-12  float-left ">
+                                                    <a class="dropdown-item dc1 " href="#">
+                                                        <img src="drp1.png" class="img float-left mr-3" alt="">
+                                                        <h6 class="mt-2">Guided Learning Path</h6>
+                                                        <p class="dropdown_iteam_p">Lorem ipsum dolor sit, amet
+                                                            Consectetur<br> asipisicing elit sed
+                                                        </p>
+
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-6 col-sm-12 float-right">
+                                                    <a class="dropdown-item d1" href="#"> <img src="drp2.png"
+                                                            class="img float-left mr-3 " alt="">
+                                                        <h6 class="mt-2">Career Path</h6>
+                                                        <p class="dropdown_iteam_p">Lorem ipsum dolor sit, amet
+                                                            Consectetur
+                                                            <br> asipisicing elit sed
+                                                        </p>
+
+                                                    </a>
+                                                </div>
+
+
+                                                <div class="col-md-6 col-sm-12 float-left">
+                                                    <a class="dropdown-item d1" href="#"> <img src="drp3.png"
+                                                            class="img float-left mr-3" alt="">
+                                                        <h6 class="mt-2">Customer Learning Playlist</h6>
+                                                        <p class="dropdown_iteam_p">Lorem ipsum dolor sit, amet
+                                                            Consectetur
+                                                            <br> asipisicing elit sed
+                                                        </p>
+
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-6 col-sm-12 float-right">
+                                                    <a class="dropdown-item d1" href="#"> <img src="drp4.png"
+                                                            class="img float-left mr-3" alt="">
+                                                        <h6 class="mt-2">Academy Courses from Experts</h6>
+                                                        <p class="dropdown_iteam_p">Lorem ipsum dolor sit, amet
+                                                            Consectetur
+                                                            <br> asipisicing elit sed
+                                                        </p>
+
+                                                    </a>
+                                                </div>
+
+                                                <div class="col-md-6  col-sm-12 float-left">
+                                                    <a class="dropdown-item d1" href="#"> <img src="drp5.png"
+                                                            class="img float-left mr-3" alt="">
+                                                        <h6>Modules</h6>
+                                                        <p class="dropdown_iteam_p">Lorem ipsum dolor sit, amet
+                                                            Consectetur
+                                                            <br> asipisicing elit sed
+                                                        </p>
+
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-6 col-sm-12 float-right">
+                                                    <a class="dropdown-item d1" href="#"> <img src="drp6.png"
+                                                            class="img float-left mr-3" alt="">
+                                                        <h6 class="mt-2">Academy Live</h6>
+                                                        <p class="dropdown_iteam_p">Lorem ipsum dolor sit, amet
+                                                            Consectetur
+                                                            <br> asipisicing elit sed
+                                                        </p>
+
+                                                    </a>
+                                                </div>
+
+                                                <div class="col-md-6 col-sm-12  float-left">
+                                                    <a class="dropdown-item d1" href="#"> <img src="drp7.png"
+                                                            class="img float-left mr-3" alt="">
+                                                        <h6 class="mt-2">Projects</h6>
+                                                        <p class="dropdown_iteam_p">Lorem ipsum dolor sit, amet
+                                                            Consectetur
+                                                            <br> asipisicing elit sed
+                                                        </p>
+
+                                                    </a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+
+
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link active" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        <span class="navtitle1">Credentials&nbsp;&nbsp;<i
+                                                class="bi bi-chevron-down">&nbsp;&nbsp;</i></span>
+                                    </a>
+
+
+                                    <div class="dropdown-menu drop1" id="drop1" aria-labelledby="navbarDropdown">
+                                        <div class="row device-width">
+                                            <div class="col-md-12 col-sm-12">
+                                                <div class="col-md-6  col-sm-12 float-left d31">
+                                                    <a class="dropdown-item d3" href="#">
+                                                        <img src="wdrp.png" class="img float-left mr-3 imgsize"
+                                                            style="width: 16%;" alt="">
+                                                        <h6 class="mt-2">Superbadges</h6>
+                                                        <p class="dropdown_iteam_p">Lorem ipsum dolor sit, amet
+                                                            Consectetur<br> asipisicing elit sed
+                                                        </p>
+
+                                                    </a>
+                                                </div>
+
+                                                <div class="col-md-6 col-sm-12 float-right">
+
+                                                    <ul class="menu">
+                                                        <a class="dropdown-item " href="#">
+
+                                                            <span style="margin-left: -35px;">
+                                                                <img src="wdrp.png"
+                                                                    class="img float-left mr-3 mt-1 ml-2 imgsize"
+                                                                    style="width: 29%; background-color: white;" alt="">
+                                                                <h6 class="mt-2">Maintain Certification</h6>
+                                                                <p class="dropdown_iteam_p">Lorem ipsum dolor sit, amet
+                                                                    Consectetur<br> asipisicing elit sed
+                                                                </p>
+                                                            </span>
+
+                                                            <span style=" background-color: rgb(235, 255, 255);">
+                                                                <img src="wdrp.png"
+                                                                    class="img float-left mr-3 ml-4 mt-1 imgsize"
+                                                                    style="width: 15%;" alt="">
+                                                                <h6 class="mt-2">Maintain Certification</h6>
+                                                                <p class="dropdown_iteam_p">Lorem ipsum dolor sit, amet
+                                                                    Consectetur<br> asipisicing elit sed
+                                                                </p>
+                                                            </span>
+
+                                                        </a>
+                                                    </ul>
+
+                                                </div>
+
+
+                                                <div class="col-md-6 col-sm-12 float-left">
+
+                                                    <ul class="menu">
+                                                        <a class="dropdown-item " href="#">
+
+                                                            <span style="margin-left: -35px;">
+                                                                <img src="wdrp.png"
+                                                                    class="img float-left mr-3 mt-1 ml-2 imgsize"
+                                                                    style="width: 29%; background-color: white;" alt="">
+                                                                <h6 class="mt-2">Certifications</h6>
+                                                                <p class="dropdown_iteam_p">Lorem ipsum dolor sit, amet
+                                                                    Consectetur<br> asipisicing elit sed
+                                                                </p>
+                                                            </span>
+
+                                                            <span style=" background-color: rgb(235, 255, 255);">
+                                                                <img src="wdrp.png"
+                                                                    class="img float-left mr-3 ml-4 mt-1 imgsize"
+                                                                    style="width: 15%;" alt="">
+                                                                <h6 class="mt-2">Certifications</h6>
+                                                                <p class="dropdown_iteam_p">Lorem ipsum dolor sit, amet
+                                                                    Consectetur<br> asipisicing elit sed
+                                                                </p>
+                                                            </span>
+
+                                                        </a>
+                                                    </ul>
+
+                                                </div>
+
+                                                <div class="col-md-6 col-sm-12 float-right">
+                                                    <ul class="menu">
+                                                        <a class="dropdown-item " href="#">
+
+                                                            <span style="margin-left: -35px;">
+                                                                <img src="wdrp.png"
+                                                                    class="img float-left mr-3 mt-1 ml-2 imgsize"
+                                                                    style="width: 29%; background-color: white;" alt="">
+                                                                <h6 class="mt-2">Verify Certifications</h6>
+                                                                <p class="dropdown_iteam_p">Lorem ipsum dolor sit, amet
+                                                                    Consectetur<br> asipisicing elit sed
+                                                                </p>
+                                                            </span>
+
+                                                            <span style=" background-color: rgb(235, 255, 255);">
+                                                                <img src="wdrp.png"
+                                                                    class="img float-left mr-3 ml-4 mt-1 imgsize"
+                                                                    style="width: 15%;" alt="">
+                                                                <h6 class="mt-2">Verify Certifications</h6>
+                                                                <p class="dropdown_iteam_p">Lorem ipsum dolor sit, amet
+                                                                    Consectetur<br> asipisicing elit sed
+                                                                </p>
+                                                            </span>
+
+                                                        </a>
+                                                    </ul>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+
+
+
+
+
+
+
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link active " href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        <span class="navtitle1">For Companies&nbsp;<i
+                                                class="bi bi-chevron-down"></i>&nbsp;&nbsp;</span>
+                                    </a>
+
+
+                                    <div class="dropdown-menu drop1" id="drop1" aria-labelledby="navbarDropdown">
+                                        <div class="row device-width">
+                                            <div class="col-md-12 col-sm-12">
+                                                <div class="col-md-6  col-sm-12 float-left d31  ">
+                                                    <a class="dropdown-item d3" href="#">
+                                                        <img src="wdrp.png" class="img float-left mr-3 imgsize"
+                                                            style="width: 16%;" alt="">
+                                                        <h6 class="mt-2">On Boarding Package</h6>
+                                                        <p class="dropdown_iteam_p">Lorem ipsum dolor sit, amet
+                                                            Consectetur<br> asipisicing elit sed
+                                                        </p>
+
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-6 col-sm-12 float-right">
+                                                    <ul class="menu">
+                                                        <a class="dropdown-item " href="#">
+
+                                                            <span style="margin-left: -35px;">
+                                                                <img src="wdrp.png"
+                                                                    class="img float-left mr-3 mt-1 ml-0 imgsize"
+                                                                    style="width: 22%; background-color: white;" alt="">
+                                                                <h6 class="mt-2">Lern How Our Customers Using AAA</h6>
+                                                                <p class="dropdown_iteam_p">Lorem ipsum dolor sit, amet
+                                                                    Consectetur<br> asipisicing elit sed
+                                                                </p>
+                                                            </span>
+
+                                                            <span style=" background-color: rgb(235, 255, 255);">
+                                                                <img src="wdrp.png"
+                                                                    class="img float-left mr-3 ml-4 mt-1 imgsize"
+                                                                    style="width: 15%;" alt="">
+                                                                <h6 class="mt-2">Lern How Our Customers Using AAA</h6>
+                                                                <p class="dropdown_iteam_p">Lorem ipsum dolor sit, amet
+                                                                    Consectetur<br> asipisicing elit sed
+                                                                </p>
+                                                            </span>
+
+                                                        </a>
+                                                    </ul>
+                                                </div>
+
+
+                                                <div class="col-md-6 col-sm-12 float-left">
+                                                    <ul class="menu">
+                                                        <a class="dropdown-item " href="#">
+
+                                                            <span style="margin-left: -35px;">
+                                                                <img src="wdrp.png"
+                                                                    class="img float-left mr-3 mt-1 ml-2 imgsize"
+                                                                    style="width: 29%; background-color: white;" alt="">
+                                                                <h6 class="mt-2">Development Support</h6>
+                                                                <p class="dropdown_iteam_p">Lorem ipsum dolor sit, amet
+                                                                    Consectetur<br> asipisicing elit sed
+                                                                </p>
+                                                            </span>
+
+                                                            <span style=" background-color: rgb(235, 255, 255);">
+                                                                <img src="wdrp.png"
+                                                                    class="img float-left mr-3 ml-4 mt-1 imgsize"
+                                                                    style="width: 15%;" alt="">
+                                                                <h6 class="mt-2">Development Support</h6>
+                                                                <p class="dropdown_iteam_p">Lorem ipsum dolor sit, amet
+                                                                    Consectetur<br> asipisicing elit sed
+                                                                </p>
+                                                            </span>
+
+                                                        </a>
+                                                    </ul>
+                                                </div>
+
+                                                <div class="col-md-6 col-sm-12 float-right">
+                                                    <ul class="menu">
+                                                        <a class="dropdown-item " href="#">
+
+                                                            <span style="margin-left: -35px;">
+                                                                <img src="wdrp.png"
+                                                                    class="img float-left mr-3 mt-1 ml-0 imgsize"
+                                                                    style="width: 24%; background-color: white;" alt="">
+                                                                <h6 class="mt-2">Increase Adoption & Productivity</h6>
+                                                                <p class="dropdown_iteam_p">Lorem ipsum dolor sit, amet
+                                                                    Consectetur<br> asipisicing elit sed
+                                                                </p>
+                                                            </span>
+
+                                                            <span style=" background-color: rgb(235, 255, 255);">
+                                                                <img src="wdrp.png"
+                                                                    class="img float-left mr-3 ml-4 mt-1 imgsize"
+                                                                    style="width: 15%;" alt="">
+                                                                <h6 class="mt-2">Increase Adoption & Productivity</h6>
+                                                                <p class="dropdown_iteam_p">Lorem ipsum dolor sit, amet
+                                                                    Consectetur<br> asipisicing elit sed
+                                                                </p>
+                                                            </span>
+
+                                                        </a>
+                                                    </ul>
+                                                </div>
+
+                                                <div class="col-md-6  col-sm-12 float-left">
+                                                    <ul class="menu">
+                                                        <a class="dropdown-item " href="#">
+
+                                                            <span style="margin-left: -35px;">
+                                                                <img src="wdrp.png"
+                                                                    class="img float-left mr-3 mt-1 ml-2 imgsize"
+                                                                    style="width: 29%; background-color: white;" alt="">
+                                                                <h6 class="mt-2">Resourse Out Sourcing</h6>
+                                                                <p class="dropdown_iteam_p">Lorem ipsum dolor sit, amet
+                                                                    Consectetur<br> asipisicing elit sed
+                                                                </p>
+                                                            </span>
+
+                                                            <span style=" background-color: rgb(235, 255, 255);">
+                                                                <img src="wdrp.png"
+                                                                    class="img float-left mr-3 ml-4 mt-1 imgsize"
+                                                                    style="width: 15%;" alt="">
+                                                                <h6 class="mt-2">Resourse Out Sourcing</h6>
+                                                                <p class="dropdown_iteam_p">Lorem ipsum dolor sit, amet
+                                                                    Consectetur<br> asipisicing elit sed
+                                                                </p>
+                                                            </span>
+
+                                                        </a>
+                                                    </ul>
+                                                </div>
+
+                                                <div class="col-md-6 col-sm-12 float-right">
+                                                    <ul class="menu">
+                                                        <a class="dropdown-item " href="#">
+
+                                                            <span style="margin-left: -35px;">
+                                                                <img src="wdrp.png"
+                                                                    class="img float-left mr-3 mt-1 ml-0 imgsize"
+                                                                    style="width: 22%; background-color: white;" alt="">
+                                                                <h6 class="mt-2">Motivate & Track Employee Learning</h6>
+                                                                <p class="dropdown_iteam_p">Lorem ipsum dolor sit, amet
+                                                                    Consectetur<br> asipisicing elit sed
+                                                                </p>
+                                                            </span>
+
+                                                            <span style=" background-color: rgb(235, 255, 255);">
+                                                                <img src="wdrp.png"
+                                                                    class="img float-left mr-3 ml-4 mt-1 imgsize"
+                                                                    style="width: 15%;" alt="">
+                                                                <h6 class="mt-2">Motivate & Track Employee Learning</h6>
+                                                                <p class="dropdown_iteam_p">Lorem ipsum dolor sit, amet
+                                                                    Consectetur<br> asipisicing elit sed
+                                                                </p>
+                                                            </span>
+
+                                                        </a>
+                                                    </ul>
+                                                </div>
+
+                                                <div class="col-md-6 col-sm-12  float-left">
+                                                    <ul class="menu">
+                                                        <a class="dropdown-item " href="#">
+
+                                                            <span style="margin-left: -35px;">
+                                                                <img src="wdrp.png"
+                                                                    class="img float-left mr-3 mt-1 ml-2 imgsize"
+                                                                    style="width: 29%; background-color: white;" alt="">
+                                                                <h6 class="mt-2">Create Culture of Learning</h6>
+                                                                <p class="dropdown_iteam_p">Lorem ipsum dolor sit, amet
+                                                                    Consectetur<br> asipisicing elit sed
+                                                                </p>
+                                                            </span>
+
+                                                            <span style=" background-color: rgb(235, 255, 255);">
+                                                                <img src="wdrp.png"
+                                                                    class="img float-left mr-3 ml-4 mt-1 imgsize"
+                                                                    style="width: 15%;" alt="">
+                                                                <h6 class="mt-2">Create Culture of Learning</h6>
+                                                                <p class="dropdown_iteam_p">Lorem ipsum dolor sit, amet
+                                                                    Consectetur<br> asipisicing elit sed
+                                                                </p>
+                                                            </span>
+
+                                                        </a>
+                                                    </ul>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </nav>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-3 col-xl-2 col-6 col-lg-2  col-sm-5 mt-3 ">
+                <button class="btn px-3 btn-md mb-2 " type="submit" style="background-color: #209BDA;"><a
+                        style="color: white; text-decoration: none;" href="loggedIn.html">Login</a></button>
+                <button class="btn px-3 btn-md mb-2" type="submit" style="color: red; border-color: red;">Sign
+                    up</button>
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <!-- <div class="row " id="newimg">
+        <div class="col-md-12 ">
+            <img src="6img/mainimg1.png" class="img-fluid w-100" alt="">
+        </div>
+    </div> -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 ">
+                <img src="6img/mainimg1.png" class="img-fluid w-100" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container">
+        <h1 class="text-center mt-4"><b>AAA Academy is the fun way to learn</b></h1>
+
+
+        <!--<div class="row justify-content-center justify-content-between mt-3 mb-4">
+
+                <div class="col-12 col-lg-3 border-0">
+                    <div class="card card1 cardhover border-0 mt-4 mb-4" style="width: 20rem;">
+                        <div class="card-body"><img src="6img/card1.png" class="mb-3 " alt="">
+                            <h5 class="card-title">Learn In-Demand Skills</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industru's standrd dummy text ever sinc.</p>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-12 col-lg-3 border-0">
+                    <div class="card card2 border-0  mt-4 ml-5 mr-5 mb-4" style="width: 20rem;">
+                        <div class="card-body"><img src="6img/card2.png" class="mb-3 " alt="">
+                            <h5 class="card-title">Earn Resume-Worthy Credentials</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industru's standrd dummy text ever sinc.</p>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-12 col-lg-3 border-0">
+                    <div class="card cardhover1 border-0 mt-4 mb-4" style="width: 20rem;">
+                        <div class="card-body"><img src="6img/card3.png" class="mb-3 " alt="">
+                            <h5 class="card-title">Connect to Opportunities</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industru's standrd dummy text ever sinc.</p>
+                        </div>
+                      </div>
+                </div>
+            </div>-->
+
+        <div class="row mb-4 mt-3 justify-content-center">
+            <div class="card card1 cardhover border-0 mt-4 mb-4" style="width: 20rem;">
+                <div class="card-body"><img src="6img/card1.png" class="mb-3 " alt="">
+                    <h5 class="card-title">Learn In-Demand Skills</h5>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industru's standrd dummy text ever sinc.</p>
+                </div>
+            </div>
+
+            <div class="card card2 mt-4 ml-5 mr-5 mb-4"
+                style="width: 20rem;  box-shadow: 1px 1px 5px 1px rgb(223, 223, 223);">
+                <div class="card-body"><img src="6img/card2.png" class="mb-3 " alt="">
+                    <h5 class="card-title">Earn Resume-Worthy Credentials</h5>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industru's standrd dummy text ever sinc.</p>
+                </div>
+            </div>
+
+            <div class="card cardhover1 mt-4 mb-4" id="mycard3" style="width: 20rem; border: none;">
+                <div class="card-body"><img src="6img/card3.png" class="mb-3 " alt="">
+                    <h5 class="card-title">Connect to Opportunities</h5>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industru's standrd dummy text ever sinc.</p>
+                </div>
+            </div>
+
+
+
+
+            <!-- <div class="col-sm-1"id="cardga"></div>
+                <div class="col-sm-3 col-md-3">
+                    <div class=" card1 card h-100 w-100" style=" border: none; background-color: rgb(223, 223, 223); box-shadow: 0 0 5em 10px rgb(223, 223, 223);">
+                        <div class="card-body"><br><img src="6img/card1.png" alt=""><br>
+                            <h5 class="card-title">Learn In-Demand Skills</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                Lorem Ipsum has been the industru's standrd dummy text ever sinc</p>
+                            
+                        </div>
+                    </div>
+                </div> -->
+
+            <!-- <div class="col-sm-1" id="cardgap"></div>
+                <div class="col-sm-3 col-md-3">
+                    <div class=" card3 card w-100" style=" box-shadow: 1px 1px 5px 1px rgb(223, 223, 223);">
+                        <div class="card-body"><br><img src="6img/card2.png" alt=""><br>
+                            <h5 class="card-title">Earn Resume-Worthy Credentials</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                Lorem Ipsum has been the industru's standrd dummy text ever sinc</p>
+                           
+                        </div>
+                    </div>
+                </div> -->
+
+            <!-- <div class="col-sm-1"id="cardgap"></div>
+                <div class="col-sm-3 col-md-3">
+                    <div class=" card3 card w-100" style="border: none;">
+                        <div class="card-body"><br><img src="6img/card3.png" alt=""><br>
+                            <h5 class="card-title">Connect to Opportunities</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                Lorem Ipsum has been the industru's standrd dummy text ever sinc</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                 -->
+
+
+
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 px-0">
+                <img src="6img/bgimg2.png" class="img-fluid w-100" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <footer class="text-center text-lg-start">
+
+            <section class="">
+                <div class="container  text-md-start mt-5">
+                    <div class="row mt-3">
+                        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+
+                            <ul style="list-style: none;">
+                                <h6 class="fw-bold">Learn</h6>
+                                <li class="text-muted">Traila</li>
+                                <li class="text-muted">Tralimixes</li>
+                                <li class="text-muted">Modules</li>
+                                <li class="text-muted">Project</li>
+                                <li class="text-muted">Trailhead Academy</li>
+                                <li class="text-muted">Career path Trails</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+
+                            <ul style="list-style: none;">
+                                <h6 class="fw-bold">Credentials</h6>
+                                <li class="text-muted">Superbadges</li>
+                                <li class="text-muted">Certifications</li>
+                                <li class="text-muted">Maintain Certifications</li>
+                                <li class="text-muted">Verify certifications</li>
+                                <li class="text-muted">Take Free Certifications prep</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+
+                            <ul style="list-style: none;">
+                                <h6 class="fw-bold">Extras</h6>
+                                <li class="text-muted">my Trailhead</li>
+                                <li class="text-muted">Customer Stories</li>
+                                <li class="text-muted">Trail Tracker</li>
+                                <li class="text-muted">Sample Gallery</li>
+                                <li class="text-muted">Trailhead Store</li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+        </footer><br>
+
+
+        <div class="row">
+            <div class="col-md-6 w-100">
+                <img src="6img/mllllllll.png" class="img-fluid" alt="Responsive image" style="margin-left: 15%;">
+
+            </div>
+            <div class="col-md-6 col-sm-12  ">
+                <img src="6img/fbtw.png" class="img-fluid " id="img1" alt="Responsive image">
+            </div>
+        </div><br>
+
+        <div class="row">
+            <div class=" col-md-10 col-sm-12 ">
+                <div style="margin-left: 12%;margin-top: 3%;">
+                    <img src="6img/loginLb.png" alt="" width="5%">
+                    <small style="font-size: 12px;"> <a href="">@</a> 2021 salsforce.com, inc.all rights reserved.
+                        &nbsp;
+                        Privacy Statement &nbsp; Terms of Use &nbsp; <a href="" rel="">User of cookies</a>&nbsp;
+                        Trust
+                        &nbsp; Accessibility &nbsp; Help &nbsp; cookies
+
+                        Prefrences</small>
+                </div>
+            </div>
+            <div class="col-md-1 col-sm-12 mt-4">
+                <div class="btn-group " style="width: 55%;">
+                    <button type="button" class="btn btn-light dropdown-toggle"
+                        style="border: none; border-radius: revert; background-color: white;" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        United Kingdom
+                    </button>
+                    <ul class="dropdown-menu" style="width: 100%;">
+                        <!-- Dropdown menu links -->
+                        <li style="margin-left: 37px; margin-bottom: -9px;">Singapore</li>
+                        <hr>
+                        <li style="margin-left: 37px; margin-bottom: -9px;">Zambia</li>
+                        <hr>
+                        <li style="margin-left: 37px; margin-bottom: -9px;">Western India</li>
+                        <hr>
+                        <li style="margin-left: 25px; margin-bottom: 2px;margin-top: -6px;">United Arab Emirates
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
